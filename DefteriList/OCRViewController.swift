@@ -28,6 +28,7 @@ class OCRViewController: UIViewController, G8TesseractDelegate {
     }
     
     func progressImageRecognition(for tesseract: G8Tesseract!) {
+        print("Easy Text Recognition with Tesseract OCR")
         print("Recognition Progress \(tesseract.progress) %")
     }
     
