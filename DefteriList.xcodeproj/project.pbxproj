@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD39BC5AF3ABA9764DEB3338 /* Pods_DefteriList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EA4BF92A032B7D82E1E3FA /* Pods_DefteriList.framework */; };
 		AF9025031E08BB44007DA525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9025021E08BB44007DA525 /* AppDelegate.swift */; };
 		AF9025051E08BB44007DA525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9025041E08BB44007DA525 /* ViewController.swift */; };
 		AF9025081E08BB44007DA525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9025061E08BB44007DA525 /* Main.storyboard */; };
 		AF90250A1E08BB44007DA525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9025091E08BB44007DA525 /* Assets.xcassets */; };
 		AF90250D1E08BB44007DA525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90250B1E08BB44007DA525 /* LaunchScreen.storyboard */; };
+		AF9DC8081E1095A500B3F685 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9DC8071E1095A500B3F685 /* OCRViewController.swift */; };
+		AF9DC8121E10A89600B3F685 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = AF9DC8111E10A89600B3F685 /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30EA4BF92A032B7D82E1E3FA /* Pods_DefteriList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DefteriList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D8F53A3FD8A3E4E17C0830 /* Pods-DefteriList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DefteriList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DefteriList/Pods-DefteriList.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA5CC79861628C076328EE5 /* Pods-DefteriList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DefteriList.release.xcconfig"; path = "Pods/Target Support Files/Pods-DefteriList/Pods-DefteriList.release.xcconfig"; sourceTree = "<group>"; };
 		AF9024FF1E08BB44007DA525 /* DefteriList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DefteriList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9025021E08BB44007DA525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF9025041E08BB44007DA525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		AF9025091E08BB44007DA525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF90250C1E08BB44007DA525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF90250E1E08BB44007DA525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9DC8071E1095A500B3F685 /* OCRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		AF9DC8111E10A89600B3F685 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD39BC5AF3ABA9764DEB3338 /* Pods_DefteriList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81CA30622FD1460824D1E5A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49D8F53A3FD8A3E4E17C0830 /* Pods-DefteriList.debug.xcconfig */,
+				5CA5CC79861628C076328EE5 /* Pods-DefteriList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF9024F61E08BB44007DA525 = {
 			isa = PBXGroup;
 			children = (
 				AF9025011E08BB44007DA525 /* DefteriList */,
 				AF9025001E08BB44007DA525 /* Products */,
+				81CA30622FD1460824D1E5A4 /* Pods */,
+				CA157E004500D04DF8AA5F44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +76,22 @@
 			children = (
 				AF9025021E08BB44007DA525 /* AppDelegate.swift */,
 				AF9025041E08BB44007DA525 /* ViewController.swift */,
+				AF9DC8071E1095A500B3F685 /* OCRViewController.swift */,
+				AF9DC8111E10A89600B3F685 /* tessdata */,
 				AF9025061E08BB44007DA525 /* Main.storyboard */,
 				AF9025091E08BB44007DA525 /* Assets.xcassets */,
 				AF90250B1E08BB44007DA525 /* LaunchScreen.storyboard */,
 				AF90250E1E08BB44007DA525 /* Info.plist */,
 			);
 			path = DefteriList;
+			sourceTree = "<group>";
+		};
+		CA157E004500D04DF8AA5F44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30EA4BF92A032B7D82E1E3FA /* Pods_DefteriList.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF9025111E08BB44007DA525 /* Build configuration list for PBXNativeTarget "DefteriList" */;
 			buildPhases = (
+				6CE5CA043E033221FCD47166 /* [CP] Check Pods Manifest.lock */,
 				AF9024FB1E08BB44007DA525 /* Sources */,
 				AF9024FC1E08BB44007DA525 /* Frameworks */,
 				AF9024FD1E08BB44007DA525 /* Resources */,
+				4E3A08F14D1BE2D526063285 /* [CP] Embed Pods Frameworks */,
+				5A5CB3B5C9B6A289E9F031FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +158,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF90250D1E08BB44007DA525 /* LaunchScreen.storyboard in Resources */,
+				AF9DC8121E10A89600B3F685 /* tessdata in Resources */,
 				AF90250A1E08BB44007DA525 /* Assets.xcassets in Resources */,
 				AF9025081E08BB44007DA525 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E3A08F14D1BE2D526063285 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DefteriList/Pods-DefteriList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5CB3B5C9B6A289E9F031FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DefteriList/Pods-DefteriList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE5CA043E033221FCD47166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF9024FB1E08BB44007DA525 /* Sources */ = {
@@ -139,6 +221,7 @@
 			files = (
 				AF9025051E08BB44007DA525 /* ViewController.swift in Sources */,
 				AF9025031E08BB44007DA525 /* AppDelegate.swift in Sources */,
+				AF9DC8081E1095A500B3F685 /* OCRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +340,7 @@
 		};
 		AF9025121E08BB44007DA525 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D8F53A3FD8A3E4E17C0830 /* Pods-DefteriList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6KNM32Y4FM;
@@ -270,6 +354,7 @@
 		};
 		AF9025131E08BB44007DA525 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA5CC79861628C076328EE5 /* Pods-DefteriList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6KNM32Y4FM;
@@ -300,6 +385,7 @@
 				AF9025131E08BB44007DA525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
