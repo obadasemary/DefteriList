@@ -15,6 +15,7 @@
 		AF90250D1E08BB44007DA525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90250B1E08BB44007DA525 /* LaunchScreen.storyboard */; };
 		AF9DC8081E1095A500B3F685 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9DC8071E1095A500B3F685 /* OCRViewController.swift */; };
 		AF9DC8121E10A89600B3F685 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = AF9DC8111E10A89600B3F685 /* tessdata */; };
+		AFDF8BCB1E1617D1009DED80 /* DateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF8BCA1E1617D1009DED80 /* DateTimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AF90250E1E08BB44007DA525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF9DC8071E1095A500B3F685 /* OCRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
 		AF9DC8111E10A89600B3F685 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		AFDF8BCA1E1617D1009DED80 /* DateTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,12 @@
 				AF9025021E08BB44007DA525 /* AppDelegate.swift */,
 				AF9025041E08BB44007DA525 /* ViewController.swift */,
 				AF9DC8071E1095A500B3F685 /* OCRViewController.swift */,
-				AF9DC8111E10A89600B3F685 /* tessdata */,
+				AFDF8BCA1E1617D1009DED80 /* DateTimeViewController.swift */,
 				AF9025061E08BB44007DA525 /* Main.storyboard */,
 				AF9025091E08BB44007DA525 /* Assets.xcassets */,
 				AF90250B1E08BB44007DA525 /* LaunchScreen.storyboard */,
 				AF90250E1E08BB44007DA525 /* Info.plist */,
+				AF9DC8111E10A89600B3F685 /* tessdata */,
 			);
 			path = DefteriList;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				AF9025051E08BB44007DA525 /* ViewController.swift in Sources */,
 				AF9025031E08BB44007DA525 /* AppDelegate.swift in Sources */,
 				AF9DC8081E1095A500B3F685 /* OCRViewController.swift in Sources */,
+				AFDF8BCB1E1617D1009DED80 /* DateTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
